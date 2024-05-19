@@ -1,0 +1,1 @@
+else if((j%x) <= i && ((j%x)==0)) matrix [i-1] [((triangle-1)*x)] = char(x);
