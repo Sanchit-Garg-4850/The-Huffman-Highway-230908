@@ -1,0 +1,3 @@
+1. Due to commutative property among the operators i[arr] and arr[i] are same things and hence code works.
+
+2. In first line it would be adrress and in second "abcde" will be printed since variables of an array points to the adrress of the first entry but in ch[6] we have given 5 entries so by default last one is assumed as \0 character and hence it is not trated as a array but string and hence instead of adrress , string is printed but as usual in arr adrress is printed.
