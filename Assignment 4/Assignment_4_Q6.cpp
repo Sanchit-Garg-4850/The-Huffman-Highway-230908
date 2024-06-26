@@ -56,8 +56,7 @@ bool areIsomorphic(TreeNode* T1, TreeNode* T2) {
     
     if (T1 == nullptr || T2 == nullptr) return false;
 
-    return (areIsomorphic(T1->left, T2->left) && areIsomorphic(T1->right, T2->right)) ||
-           (areIsomorphic(T1->left, T2->right) && areIsomorphic(T1->right, T2->left));
+    return (areIsomorphic(T1->left, T2->left) && areIsomorphic(T1->right, T2->right)) ;
 }
 
 
